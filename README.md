@@ -2,7 +2,7 @@
 
 This is a simple CLI tool that can be configured as seen in the chart below.
 
-::: mermaid
+``` mermaid
 flowchart LR
 CLI[cli] --> COMMAND[commands]
 COMMAND --> OPTIONS[options]
@@ -16,7 +16,7 @@ SUBCOMMAND2 --> OPTIONS
 ARGS --> OPTIONS
 CLI --> OPTIONS
 CLI --> ARGS
-:::
+```
 
 ## Installation
 ```bash
