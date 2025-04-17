@@ -1,30 +1,12 @@
-# Structure
+package main
 
-This is a simple CLI tool that can be configured as seen in the chart below.
+import (
+	"GoCLI/pkg/cli"
+	"fmt"
+	"os"
+	"regexp"
+)
 
-::: mermaid
-flowchart LR
-CLI[cli] --> COMMAND[commands]
-COMMAND --> OPTIONS[options]
-COMMAND --> SUBCOMMAND[subcommands 1]
-SUBCOMMAND2 --> ARGS
-SUBCOMMAND --> ARGS
-COMMAND --> ARGS[args]
-SUBCOMMAND --> SUBCOMMAND2[subcommands ...N]
-SUBCOMMAND --> OPTIONS
-SUBCOMMAND2 --> OPTIONS
-ARGS --> OPTIONS
-CLI --> OPTIONS
-CLI --> ARGS
-:::
-
-## Installation
-```bash
-get get github.com/StevenCyb/GoCLI
-```
-
-## Examples
-```go
 func main() {
 	c := cli.New(
 		cli.Name("gurl"),
@@ -102,4 +84,3 @@ func main() {
 		os.Exit(1)
 	}
 }
-```
