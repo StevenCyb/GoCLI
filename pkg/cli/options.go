@@ -1,9 +1,10 @@
 package cli
 
 import (
-	"GoCLI/pkg/cli/internal/options"
 	"io"
 	"regexp"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/options"
 )
 
 // CLI

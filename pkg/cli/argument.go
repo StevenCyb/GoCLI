@@ -1,10 +1,11 @@
 package cli
 
 import (
-	"GoCLI/pkg/cli/internal/options"
-	"GoCLI/pkg/cli/internal/restriction"
-	"GoCLI/pkg/cli/internal/utils"
 	"regexp"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/options"
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/utils"
 )
 
 type argument struct {

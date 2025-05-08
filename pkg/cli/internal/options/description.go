@@ -1,6 +1,6 @@
 package options
 
-import "GoCLI/pkg/cli/internal/restriction"
+import "github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
 
 type Description struct {
 	restriction.IsCliOption

@@ -1,8 +1,9 @@
 package options
 
 import (
-	"GoCLI/pkg/cli/internal/restriction"
 	"regexp"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
 )
 
 type Validate struct {

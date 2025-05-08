@@ -1,9 +1,10 @@
 package main
 
 import (
-	"GoCLI/pkg/cli"
 	"fmt"
 	"os"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli"
 )
 
 func main() {

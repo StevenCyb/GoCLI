@@ -1,7 +1,7 @@
 package options
 
 import (
-	"GoCLI/pkg/cli/internal/restriction"
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
 )
 
 type Handler struct {

@@ -1,8 +1,9 @@
 package cli
 
 import (
-	"GoCLI/pkg/cli/internal/restriction"
 	"errors"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
 )
 
 var ErrNotMatched = errors.New("not matched")

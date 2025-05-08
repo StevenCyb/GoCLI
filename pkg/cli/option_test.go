@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"GoCLI/pkg/cli/internal/options"
-	"GoCLI/pkg/cli/internal/utils"
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/options"
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/utils"
 
 	"github.com/stretchr/testify/assert"
 )

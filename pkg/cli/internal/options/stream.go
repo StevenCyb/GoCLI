@@ -1,8 +1,9 @@
 package options
 
 import (
-	"GoCLI/pkg/cli/internal/restriction"
 	"io"
+
+	"github.com/StevenCyb/GoCLI/pkg/cli/internal/restriction"
 )
 
 type Stream struct {

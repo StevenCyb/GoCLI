@@ -1,4 +1,4 @@
-module GoCLI
+module github.com/StevenCyb/GoCLI
 
 go 1.23.2
 
