@@ -20,7 +20,7 @@ CLI --> ARGS
 
 ## Installation
 ```bash
-get get github.com/StevenCyb/GoCLI
+go get github.com/StevenCyb/GoCLI
 ```
 
 ## Examples
